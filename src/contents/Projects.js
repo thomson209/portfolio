@@ -10,10 +10,9 @@ class Projects extends Component {
             <h1>I'm Douglas Thomson</h1>
             <h3>Full Stack Web Developer in-training | UI/UX Designer</h3>
             <br></br>
-            <p>I started my journey in the world of computers from an young age, as a hobby.
-                Upon completion of high school, I trained as a machinist and pursued other endevours in the oil & gas industry.
-                https://github.com/thomson209/weather_app.git    
-            
+            <p>https://github.com/thomson209/weather_app.git    
+                https://github.com/thomson209/calculator.git
+                https://github.com/thomson209/Comments_marketplace.git
             </p>
             
             </div>
