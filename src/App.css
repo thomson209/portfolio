@@ -28,30 +28,29 @@ nav
   background: rgb(60, 52, 172);
   background: linear-gradient(180deg, rgb(109, 1, 131) 40%, rgb(1, 1, 109) 80%);
 }
-.condiv
-{
+
+.condiv{
   padding: 100px ;
   background-image: url(./img/background.png);
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
 }
 
-.home
-{
+.home{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   
 }
-.profilepic
-{
+
+.profilepic{
   border-radius: 50%;
   width: 200px;
   margin: 30px;
 }
-.typingeffect
-{
+
+.typingeffect{
   font-size: var(--typing-font);
   margin-bottom: 30px;
 }
@@ -63,62 +62,45 @@ nav ul{
   text-decoration: none;
   color: white !important;
 }
-nav ul li
-{
+
+nav ul li{
   margin:40px;
 }
 
-a
-{
+a{
   text-decoration: none;
   color: white;
 }
 
-.subtopic
-{
+.subtopic{
   margin:10px 10px 30px 10px !important;
 }
+
 p{
   font-size: var(--fontsize-p);
 }
+
 h1,h2,h3,h4,p{
   margin: 10px;
 }
-.social
-{
-  position: absolute;
-  margin-top: 20px;
-  display: flex;
-  bottom: 60px;
-}
-.social i
-{
-  padding-right: 30px;
-  font-size: 25px;
-  color: #9a9b9c;
-}
-.social i:hover
-{
-  color: #ffffff;
-}
-.widecard
-{
+
+.widecard{
   border:0px solid #9a9b9c;
   display: flex;
   margin:30px 0px 30px 0px;
 }
-.widecard:hover
-{
+
+.widecard:hover{
   color: #1b1d20;
   background-color: #d3d3d3;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.active
-{
+
+.active{
   font-weight: bolder;
 }
-.skills ul li
-{
+
+.skills ul li{
   list-style-type:none;
   margin:30px;
 }
@@ -129,38 +111,27 @@ h1,h2,h3,h4,p{
     --sidebar-flex:0;
     --typing-font:2rem;
   }
-  .App
-  {
+
+  .App{
     flex-direction: column;
   }
-  .sidebar
-  {
+
+  .sidebar{
     padding: 30px;
     background: rgb(238,103,143);
     background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
   }
-  .condiv
-  {
+
+  .condiv{
     padding: 50px ;
   }
-  nav ul
-  {
+
+  nav ul{
     display: flex;
   }
-  nav ul li
-  {
+
+  nav ul li{
     margin: 10px;
   }
-  .social
-  {
-    left:0;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    bottom: 30px;
-  }
-  .social i
-  {
-    padding-right: 0px;
-  }
+
 }

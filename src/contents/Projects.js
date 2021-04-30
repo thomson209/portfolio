@@ -6,15 +6,12 @@ class Projects extends Component {
         return (
             <div className="condiv">
             <h1 className="subtopic">Projects</h1>
-            <h4>Hey there,</h4>
-            <h1>I'm Douglas Thomson</h1>
-            <h3>Full Stack Web Developer in-training | UI/UX Designer</h3>
-            <br></br>
-            <p>https://github.com/thomson209/weather_app.git    
-                https://github.com/thomson209/calculator.git
-                https://github.com/thomson209/Comments_marketplace.git
-            </p>
             
+            <h2>Here are a few examples of past projects:</h2>
+            <br/>
+                <a href="https://github.com/thomson209/weather_app.git" style={{color: "blue", fontWeight: "bold"}}>Weather App</a><br/>
+                <a href="https://github.com/thomson209/calculator.git" style={{color: "blue", fontWeight: "bold"}}>HTML Calculator</a><br/>
+                <a href="https://github.com/thomson209/market.git" style={{color: "blue", fontWeight: "bold"}}>Marketplace App</a>
             </div>
             )
         }
