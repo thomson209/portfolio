@@ -9,8 +9,8 @@ class Projects extends Component {
             
             <h2>Here are a few examples of past projects:</h2>
             <br/>
-                <a href="https://github.com/thomson209/weather_app.git" style={{color: "blue", fontWeight: "bold"}}>Weather App</a><br/>
-                <a href="https://github.com/thomson209/calculator.git" style={{color: "blue", fontWeight: "bold"}}>HTML Calculator</a><br/>
+                <a href="https://github.com/thomson209/weather_app.git" style={{color: "blue", fontWeight: "bold"}}>   Weather App</a><br/><br/>
+                <a href="https://github.com/thomson209/calculator.git" style={{color: "blue", fontWeight: "bold"}}>HTML Calculator</a><br/><br/>
                 <a href="https://github.com/thomson209/market.git" style={{color: "blue", fontWeight: "bold"}}>Marketplace App</a>
             </div>
             )
