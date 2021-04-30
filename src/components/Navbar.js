@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavItem from './NavItem';
 
+//navbar constructor
 class Navbar extends Component {
     constructor(props)
     {
@@ -18,6 +19,7 @@ class Navbar extends Component {
             document.getElementById(this.state.NavItemActive).classList.add('active');
         });
     };
+    //output
     render() {
         return (
             <nav>

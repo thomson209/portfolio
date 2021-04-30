@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+//widecard format
 
 class Widecard extends Component {
     render() {

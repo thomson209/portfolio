@@ -12,7 +12,7 @@ import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import { Container } from '@material-ui/core';
 
-
+//routing
 function App() {
   return (
     
