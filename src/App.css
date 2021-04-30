@@ -25,8 +25,8 @@ nav
 {
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
-  background: rgb(60, 52, 172);
-  background: linear-gradient(180deg, rgb(109, 1, 131) 40%, rgb(1, 1, 109) 80%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(119, 0, 155) 40%, rgb(46, 0, 61) 75%);
 }
 
 .condiv{
